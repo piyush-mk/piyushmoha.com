@@ -148,14 +148,18 @@ export const projects: Project[] = [
     shot: "awaaz",
     illustration: true,
     year: "2026",
-    status: "3rd · Paytm x Sarvam AI",
+    status: "Winner · Paytm x Sarvam AI",
     featured: true,
     line: "Shopkeepers run billing and inventory by speaking, in their own language.",
     body: [
       "Speech recognition feeds an LLM tool-calling loop, so small merchants can run billing, inventory and customer tasks on a Paytm POS by voice.",
+      "Won the Paytm x Sarvam AI Buildathon at Paytm, Noida, in October 2026.",
     ],
     stack: ["React", "Python", "ASR", "LLMs"],
-    links: [{ label: "Source", href: "https://github.com/piyush-mk/Awaaz" }],
+    links: [
+      { label: "Source", href: "https://github.com/piyush-mk/Awaaz" },
+      { label: "Live demo", href: "https://65-20-73-34.sslip.io/app/counter" },
+    ],
   },
   {
     slug: "finscope",
@@ -178,9 +182,9 @@ export const projects: Project[] = [
 export type HackImage = "meta-pytorch" | "paytm" | "pocketfm" | "goldman" | "nasa" | "hacknitr";
 
 export const achievements: { rank: string; event: string; img?: HackImage; date: string }[] = [
-  { rank: "Top 10", event: "Meta x PyTorch OpenEnv Hackathon", img: "meta-pytorch", date: "2026" },
-  { rank: "3rd", event: "Paytm x Sarvam AI Hackathon", img: "paytm", date: "2026" },
+  { rank: "Winner", event: "Paytm x Sarvam AI Buildathon, Paytm Noida", img: "paytm", date: "2026" },
   { rank: "Top 10", event: "Pocket FM x Sarvam x OpenAI, Zero to One", img: "pocketfm", date: "2026" },
+  { rank: "Top 10", event: "Meta x PyTorch OpenEnv Hackathon", img: "meta-pytorch", date: "2026" },
   { rank: "Finalist", event: "Goldman Sachs India Quant Hackathon", img: "goldman", date: "2024" },
   { rank: "Best Use of Data", event: "NASA Space Apps, Bengaluru", img: "nasa", date: "2023" },
   { rank: "Winner", event: "HackNITR 4.0", img: "hacknitr", date: "2023" },
