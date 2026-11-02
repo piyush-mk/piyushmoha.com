@@ -42,7 +42,7 @@ scans, then deploys to Cloudflare from `main`. GitHub Actions has the same pipel
 4. Make `git push` go to both hosts (once per clone):
 
    ```bash
-   git remote set-url --add --push origin https://github.com/piyush-mk/piyush-mptra.git
+   git remote set-url --add --push origin https://github.com/piyush-mk/piyushmoha.com.git
    git remote set-url --add --push origin https://gitlab.com/<gitlab-username>/piyush-mptra.git
    git config core.hooksPath .githooks
    git push
